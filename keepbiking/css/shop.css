@@ -1,0 +1,66 @@
+.mercadoria h2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.shopPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 5px 0 0 auto ;
+}
+
+.title{
+    text-align: center;
+}
+
+span {
+    text-align: center;
+}
+
+.content:hover {
+    font-size: larger;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0px 2px 10px #000;
+    border-radius: 20px;
+}
+
+.mediaCard .img{
+    max-width: 1vh;
+    max-height: 1vh;
+}
+
+.action {
+    position: relative;
+    margin: 5px 0 5px 65px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+@media (max-width: 999px) {
+    .shopPage {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content {
+        margin: 5% 0;
+    }
+
+
+}
